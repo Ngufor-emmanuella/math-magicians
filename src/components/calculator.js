@@ -32,7 +32,7 @@ class Calculate extends React.Component {
                 <button type="button" className="no-color" onClick={this.handPress}> % </button>
               </td>
               <td>
-                <button type="button" className="color" onClick={this.handPress}> + </button>
+                <button type="button" className="color" onClick={this.handPress}> ÷ </button>
               </td>
             </tr>
 
