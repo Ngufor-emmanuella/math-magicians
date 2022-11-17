@@ -12,7 +12,6 @@ class App extends React.Component {
       <Calculate />
     );
   }
-
 }
 
 export default App;
