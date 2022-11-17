@@ -9,7 +9,7 @@ In this project I built a calculator app using REACT by implementing the followi
 -create a directory called components.
 -Inside components, create a new Calculator.js file.
 -In Calculator.js, create a React component that matches the required design
-
+-Used table tags for html and css layouts
 > Learning objectives
 
 - Set up a React app.
