@@ -1,0 +1,103 @@
+import React from 'react';
+
+class Calculate extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: 0,
+    };
+  }
+
+  render() {
+    const { total } = this.state;
+
+    return (
+      <div className="calculator-box">
+        <table id="calculator" cellSpacing="0">
+          <tbody id="calculator-body">
+            <tr className="result-box">
+              <td colSpan="4" className="result">
+                <span>{total}</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> AC </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> +/- </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> % </button>
+              </td>
+              <td>
+                <button type="button" className="color" onClick={this.handPress}> ÷ </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 7 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 8 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 9 </button>
+              </td>
+              <td>
+                <button type="button" className="color" onClick={this.handPress}> x </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 4 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 5 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 6 </button>
+              </td>
+              <td>
+                <button type="button" className="color" onClick={this.handPress}> - </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 1 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 2 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> 3 </button>
+              </td>
+              <td>
+                <button type="button" className="color" onClick={this.handPress}> + </button>
+              </td>
+            </tr>
+
+            <tr>
+              <td colSpan="2">
+                <button type="button" className="no-color" onClick={this.handPress}> 0 </button>
+              </td>
+              <td>
+                <button type="button" className="no-color" onClick={this.handPress}> . </button>
+              </td>
+              <td>
+                <button type="button" className="color" onClick={this.handPress}> = </button>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+
+    );
+  }
+}
+export default Calculate;

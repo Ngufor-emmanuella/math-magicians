@@ -1,9 +1,15 @@
 
 
 # Math Magician: setup
-
-Math- magician is an app built on React. I set up the environment and tools needed to develop the application. In the following projects, I develop the actual application.
-
+In this project I built a calculator app using REACT by implementing the following :
+-Use React components.
+-Use React props.
+-Use React state.
+-Delete all the boilerplate from CRA (text, images, styles).
+-create a directory called components.
+-Inside components, create a new Calculator.js file.
+-In Calculator.js, create a React component that matches the required design
+-Used table tags for html and css layouts
 > Learning objectives
 
 - Set up a React app.
