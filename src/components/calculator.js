@@ -4,9 +4,9 @@ import calculate from '../logic/calculate';
 // refactor from class to function using hooks useState;
 const Calc = () => {
   const [state, setState] = useState({
-    total: 0,
-    next: null,
+    mext: 0,
     operation: null,
+    total: null,
   });
 
   const handPress = (e) => {
