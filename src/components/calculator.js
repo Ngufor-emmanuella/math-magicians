@@ -22,9 +22,9 @@ const Calc = () => {
         <tbody id="calculator-body">
           <tr className="result-box">
             <td colSpan="4" className="result">
-              <span>{total}</span>
               <span>{next}</span>
               <span>{operation}</span>
+              <span>{total}</span>
             </td>
           </tr>
 
