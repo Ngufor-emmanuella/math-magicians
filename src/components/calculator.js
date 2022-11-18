@@ -1,112 +1,108 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
-class Calculate extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      total: 0,
-      next: null,
-      operation: null,
-    };
-  }
+// refactor from class to function using hooks useState;
+const Calc = () => {
+  const [state, setState] = useState({
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
-  handPress = (e) => {
-    const newState = calculate(this.state, e.target.innerText);
-    this.setState(newState);
+  const handPress = (e) => {
+    const newState = e.target.innerText;
+    setState((state) => calculate(state, newState));
   };
 
-  render() {
-    const { total, next, operation } = this.state;
+  const { total, next, operation } = state;
 
-    return (
-      <div className="calculator-box">
-        <table id="calculator" cellSpacing="0">
-          <tbody id="calculator-body">
-            <tr className="result-box">
-              <td colSpan="4" className="result">
-                <span>{total}</span>
-                <span>{next}</span>
-                <span>{operation}</span>
-              </td>
-            </tr>
+  return (
+    <div className="calculator-box">
+      <table id="calculator" cellSpacing="0">
+        <tbody id="calculator-body">
+          <tr className="result-box">
+            <td colSpan="4" className="result">
+              <span>{total}</span>
+              <span>{next}</span>
+              <span>{operation}</span>
+            </td>
+          </tr>
 
-            <tr>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> AC </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> +/- </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> % </button>
-              </td>
-              <td>
-                <button type="button" className="color" onClick={this.handPress}> ÷ </button>
-              </td>
-            </tr>
+          <tr>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> AC </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> +/- </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> % </button>
+            </td>
+            <td>
+              <button type="button" className="color" onClick={handPress}> ÷ </button>
+            </td>
+          </tr>
 
-            <tr>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 7 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 8 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 9 </button>
-              </td>
-              <td>
-                <button type="button" className="color" onClick={this.handPress}> x </button>
-              </td>
-            </tr>
+          <tr>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 7 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 8 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 9 </button>
+            </td>
+            <td>
+              <button type="button" className="color" onClick={handPress}> x </button>
+            </td>
+          </tr>
 
-            <tr>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 4 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 5 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 6 </button>
-              </td>
-              <td>
-                <button type="button" className="color" onClick={this.handPress}> - </button>
-              </td>
-            </tr>
+          <tr>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 4 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 5 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 6 </button>
+            </td>
+            <td>
+              <button type="button" className="color" onClick={handPress}> - </button>
+            </td>
+          </tr>
 
-            <tr>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 1 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 2 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> 3 </button>
-              </td>
-              <td>
-                <button type="button" className="color" onClick={this.handPress}> + </button>
-              </td>
-            </tr>
+          <tr>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 1 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 2 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> 3 </button>
+            </td>
+            <td>
+              <button type="button" className="color" onClick={handPress}> + </button>
+            </td>
+          </tr>
 
-            <tr>
-              <td colSpan="2">
-                <button type="button" className="no-color" onClick={this.handPress}> 0 </button>
-              </td>
-              <td>
-                <button type="button" className="no-color" onClick={this.handPress}> . </button>
-              </td>
-              <td>
-                <button type="button" className="color" onClick={this.handPress}> = </button>
-              </td>
-            </tr>
+          <tr>
+            <td colSpan="2">
+              <button type="button" className="no-color" onClick={handPress}> 0 </button>
+            </td>
+            <td>
+              <button type="button" className="no-color" onClick={handPress}> . </button>
+            </td>
+            <td>
+              <button type="button" className="color" onClick={handPress}> = </button>
+            </td>
+          </tr>
 
-          </tbody>
-        </table>
-      </div>
-    );
-  }
-}
-export default Calculate;
+        </tbody>
+      </table>
+    </div>
+  );
+};
+export default Calc;
