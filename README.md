@@ -23,7 +23,7 @@ In this project I built a calculator app using REACT by implementing the followi
 - JAVASCRIPT.
 - Check the code with Linters tests.
 
-## Live Demo (if available)
+## Live Demo ( https://ngufor-emmanuella.github.io/math-magicians/)
 
 
 ## Getting Started
@@ -63,7 +63,7 @@ npx eslint .
 
 ## Authors
 
-👤 Rabecca Nabwire
+👤 Ngufor emmauella
 
 - GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
 - LinkedIn: [Ngufor emmanuella](https://www.linkedin.com/in/Ngufor-emmanuella//)
