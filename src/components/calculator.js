@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 // refactor from class to function using hooks useState;
 const Calc = () => {
   const [state, setState] = useState({
-    mext: 0,
+    next: 0,
     operation: null,
     total: null,
   });
