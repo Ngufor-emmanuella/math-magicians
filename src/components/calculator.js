@@ -1,15 +1,23 @@
 import React from 'react';
+import calculate from '../logic/calculate';
 
 class Calculate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       total: 0,
+      next: null,
+      operation: null,
     };
   }
 
+  handPress = (e) => {
+    const newState = calculate(this.state, e.target.innerText);
+    this.setState(newState);
+  };
+
   render() {
-    const { total } = this.state;
+    const { total, next, operation } = this.state;
 
     return (
       <div className="calculator-box">
@@ -18,6 +26,8 @@ class Calculate extends React.Component {
             <tr className="result-box">
               <td colSpan="4" className="result">
                 <span>{total}</span>
+                <span>{next}</span>
+                <span>{operation}</span>
               </td>
             </tr>
 
@@ -96,7 +106,6 @@ class Calculate extends React.Component {
           </tbody>
         </table>
       </div>
-
     );
   }
 }
