@@ -14,7 +14,7 @@ const Calc = () => {
     setState((state) => calculate(state, newState));
   };
 
-  const { total, next, operation } = state;
+  const { next, operation, total } = state;
 
   return (
     <div className="calculator-box">
