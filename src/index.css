@@ -8,8 +8,8 @@ html {
 }
 
 .calculator-box {
-   display: flex;
-   height: 60vh;
+  display: flex;
+  height: 60vh;
   border: 2px solid rgb(128, 128, 128);
   margin: 4rem auto 0 auto;
   width: 50%;

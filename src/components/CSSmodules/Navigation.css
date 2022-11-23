@@ -28,14 +28,15 @@
   animation-duration: 2s;
   animation-name: slideIn;
   animation-iteration-count: infinite;
-  animation-direction: alternate;
+
+  /* animation-direction: alternate; */
 }
 
 @keyframes slideIn {
   from {
     margin-right: 100%;
-    
   }
+
   to {
     margin-left: 0%;
   }
