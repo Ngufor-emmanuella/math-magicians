@@ -18,7 +18,7 @@ const Calc = () => {
 
   return (
     <div className="general-container">
-      <p className="general-paragraph">Let's do some maths !</p>
+      <p className="general-paragraph">Let us do some maths !</p>
       <div className="calculator-box">
         <table id="calculator" cellSpacing="0">
           <tbody id="calculator-body">

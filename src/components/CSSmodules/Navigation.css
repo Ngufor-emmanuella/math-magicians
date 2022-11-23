@@ -28,8 +28,6 @@
   animation-duration: 2s;
   animation-name: slideIn;
   animation-iteration-count: infinite;
-
-  /* animation-direction: alternate; */
 }
 
 @keyframes slideIn {
