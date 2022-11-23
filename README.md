@@ -1,6 +1,5 @@
 # 📖 [MATH MAGICIAN] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
 **[[MATH MAGICIAN]** is a calculator based project that also links to other componenets but on a single page
 
@@ -96,17 +95,16 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="Juwon DanieL Adesanya"></a>
-## 👥 Authors <a name="Emmanuella Ngufor"></a>
+## 👥 Authors <a name=""></a>
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Emmanuella Ngufor**
 
 - GitHub: [@githubhandle](https://github.com/Ngufor-emmanuella)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuella-ngufor-647403204/)
 
-👤 **Author2**
+👤 **Juwon DanieL Adesanya**
 
 - GitHub: [@githubhandle](https://github.com/Ade179)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/adejuwon-adesanya-237b54239/)
@@ -140,7 +138,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project please star it
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
