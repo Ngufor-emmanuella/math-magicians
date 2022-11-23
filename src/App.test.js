@@ -4,7 +4,7 @@ import App from './App';
 
 test('Jest snapshot to test components', () => {
   const component = renderer.create(
-      <App />
+    <App />,
   );
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();

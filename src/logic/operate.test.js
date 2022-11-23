@@ -28,4 +28,3 @@ describe('checking operators', () => {
     expect(operate(numberOne, numberTwo, operationSymbol)).toEqual('0');
   });
 });
-
