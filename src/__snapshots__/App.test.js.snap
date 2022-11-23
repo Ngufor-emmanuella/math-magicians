@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest snapshot to test components 1`] = `
+Array [
+  <div
+    className="nav-bar"
+  >
+    <div
+      className="logo"
+    >
+      <h1
+        className="magicians"
+      >
+        Math Magicians
+      </h1>
+    </div>
+    <nav
+      className="nav"
+    >
+      <a
+        className="links"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        className="links"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      |
+      <a
+        className="links"
+        href="/Quotes"
+        onClick={[Function]}
+      >
+        Quotes
+      </a>
+    </nav>
+  </div>,
+  <main>
+    <h2
+      className="welcome"
+    >
+      Welcome to our page
+    </h2>
+    <div
+      className="main-box"
+    >
+      <p
+        className="sub-box"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.
+      </p>
+      <p
+        className="lores"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum maxime a ex quaerat nesciunt nostrum labore blanditiis voluptatum, repellendus sed, odio sit eveniet natus harum nisi voluptatem amet. Consequatur, consectetur.
+      </p>
+    </div>
+  </main>,
+]
+`;

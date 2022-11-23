@@ -37,24 +37,24 @@ describe('testing calculators functionalities', () => {
 
   test('Addition operator', () => {
     const operands = {
-      total: 5,
+      total: 75,
       next: 25,
       operation: '+',
     };
 
     const buttonSelected = '+';
-    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '30', next: null, operation: '+' });
+    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '100', next: null, operation: '+' });
   });
 
   test('Minus operator', () => {
     const operands = {
-      total: 10,
-      next: 5,
+      total: 100,
+      next: 25,
       operation: '-',
     };
 
     const buttonSelected = '-';
-    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '5', next: null, operation: '-' });
+    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '75', next: null, operation: '-' });
   });
 
   test('multiplication operator', () => {
@@ -70,13 +70,12 @@ describe('testing calculators functionalities', () => {
 
   test('division opearator', () => {
     const operands = {
-      total: 5,
+      total: 15,
       next: 5,
       operation: '÷',
     };
 
     const buttonSelected = '÷';
-    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '1', next: null, operation: '÷' });
+    expect(calculate(operands, buttonSelected)).toStrictEqual({ total: '3', next: null, operation: '÷' });
   });
 });
-
