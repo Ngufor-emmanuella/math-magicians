@@ -11,7 +11,7 @@ describe('properly renders links', () => {
     );
   });
 
-  test('Trender Home Page', () => {
+  test('render Home Page', () => {
     render(
       <Router>
         <Navigation />
