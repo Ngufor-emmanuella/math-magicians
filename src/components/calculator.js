@@ -17,9 +17,8 @@ const Calc = () => {
   const { next, operation, total } = state;
 
   return (
-    // <div>
-    //   <p>Let's do some maths !</p>
-    // </div>
+    <div className="general-container">
+      <p className="general-paragraph">Let's do some maths !</p>
     <div className="calculator-box">
       <table id="calculator" cellSpacing="0">
         <tbody id="calculator-body">
@@ -105,6 +104,7 @@ const Calc = () => {
 
         </tbody>
       </table>
+    </div>
     </div>
   );
 };

@@ -7,13 +7,11 @@ html {
   width: 100%;
 }
 
-
-
 .calculator-box {
    display: flex;
    height: 60vh;
   border: 2px solid rgb(128, 128, 128);
-  margin: 10rem auto;
+  margin: 4rem auto 0 auto;
   width: 50%;
 }
 
@@ -67,4 +65,18 @@ td > input {
   color: #fff;
   float: right;
   padding: 1rem;
+}
+
+.general-container {
+  display: flex;
+}
+
+.general-paragraph {
+  color: rgb(34, 34, 112);
+  font-family: "Cascadia Code", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  position: relative;
+  top: 2rem;
+  padding-left: 2rem;
 }

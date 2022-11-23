@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  margin: 15rem auto;
+  margin: 15rem auto 0 auto;
   width: 70%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bolder;

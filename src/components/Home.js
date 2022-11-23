@@ -4,7 +4,6 @@ const Home = () => {
     return (
       <>
         <main>
-          <h1 className="head">Math Magicians</h1>
           <h2 className="welcome">Welcome to our page</h2>
           <div className="main-box">
             <p className="sub-box">
