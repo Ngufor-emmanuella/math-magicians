@@ -1,0 +1,12 @@
+.error {
+  color: rgb(207, 48, 48);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 8rem;
+}
