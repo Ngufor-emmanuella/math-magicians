@@ -1,92 +1,177 @@
+# 📖 [MATH MAGICIAN] <a name="about-project"></a>
 
 
-# Math Magician: setup
-In this project I built a calculator app using REACT by implementing the following :
--Use React components.
--Use React props.
--Use React state.
--Delete all the boilerplate from CRA (text, images, styles).
--create a directory called components.
--Inside components, create a new Calculator.js file.
--In Calculator.js, create a React component that matches the required design
--Used table tags for html and css layouts
-> Learning objectives
+**[[MATH MAGICIAN]** is a calculator based project that also links to other componenets but on a single page
 
-- Set up a React app.
-- Use React documentation.
+## 🛠 Built With <a name="ReactJS">
 
-## Built With
+### Tech Stack <a name="JavaScript, ReactJS, HTML, CSS"></a>
 
-- REACT
-- HTML.
-- CSS.
-- JAVASCRIPT.
-- Check the code with Linters tests.
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
-## Live Demo ( https://ngufor-emmanuella.github.io/math-magicians/)
+<details>
+  <summary>ReactJS</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Webpack</summary>
+  <ul>
+    <li><a href="https://webpack.js.org/guides">Webpack</a></li>
+  </ul>
+</details>
 
 
-## Getting Started
+<!-- Features -->
 
-To get a local copy up and running follow these simple example steps:
-- git clone git@github.com:Ngufor-emmanuella/math-magician.git
-- cd math-magician
-- npm install
-- npm start
-- index.html
+### Key Features <a name="key-features"></a>
 
-### Run Tests
-To track linter errors locally follow these steps:  
+> Describe between 1-3 key features of the application.
 
-Download all the dependencies run:
+- **[Single page app]**
+- **[calculator]**
+- **[Quote section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo">N/A</a>
+
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### clone the ssh key of this repository
+### install using git clone command
+
+### Prerequisites
+
+In order to run this project you need:
+### A computer
+
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/Ngufor-emmanuella/math-magicians.git
 ```
-npm install
-```
-Track HTML linter errors run:
-```
-npx hint .
-```
-Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-Track JavaScript linter errors run:
-```
-npx eslint .
-```
+--->
+
+
+### Usage
+
+To run the project, execute the following command:
+### run 'npm i' if you don't have node modules installed
+### npm start
+
+
+### Run tests
+
+To run tests, run the following command:
+### npm test
 
 ### Deployment
 
-- I used GitHub Pages to deploy my website
-- For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name=""></a>
+
+> Mention all of the collaborators of this project.
+
+👤 **Emmanuella Ngufor**
+
+- GitHub: [@githubhandle](https://github.com/Ngufor-emmanuella)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emmanuella-ngufor-647403204/)
+
+👤 **Juwon DanieL Adesanya**
+
+- GitHub: [@githubhandle](https://github.com/Ade179)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/adejuwon-adesanya-237b54239/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Not decided]**
 
 
-## Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-👤 Ngufor emmauella
+<!-- CONTRIBUTING -->
 
-- GitHub: [@Ngufor-emmanuella](https://github.com/Ngufor-emmanuella)
-- LinkedIn: [Ngufor emmanuella](https://www.linkedin.com/in/Ngufor-emmanuella//)
-
-## Credits
-
-- Topic inspired by [Microverse](https://www.microverse.org/)
-
-## Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project and how we manage to build it!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- SUPPORT -->
 
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedbacks.
-- A great thanks to My coding partner, morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+> Write a message to encourage readers to support your project
 
-This project is [MIT](LICENSE) licensed
+If you like this project please star it
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank my Partner for great collaboration @Ade179
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **How do i create a react app]**
+
+  - [run 'npx create-react-app' on the command line]
+
+- **[How do i create snapshots]**
+
+  - [https://www.digitalocean.com/community/tutorials/how-to-write-snapshot-tests-for-react-components-with-jest]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
